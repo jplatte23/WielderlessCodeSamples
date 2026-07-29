@@ -1,6 +1,7 @@
 # WieldPhysicsWeaponPawn Code Sample
 
 ## Overview
+![Weapon Movement](Media/wielderless-wep.gif)
 
 This repository contains the gameplay code for the weapon-controlled player pawn used in Wielderless, a multiplayer Unreal Engine action roguelite. Rather than controlling a traditional character, players inhabit a cursed weapon that moves independently before possessing NPC hosts. The sample demonstrates how gameplay, networking, physics, and presentation are organized into a maintainable Unreal C++ architecture.
 
