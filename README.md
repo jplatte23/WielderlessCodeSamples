@@ -2,9 +2,17 @@
 
 ## Overview
 
-This code sample showcases `AWieldPhysicsWeaponPawn`, a physics-driven player pawn from a multiplayer Unreal Engine action roguelike prototype. The pawn represents the player while they are inhabiting the weapon itself rather than a character body. It handles input, physics-based movement, camera control, weapon visuals, scan/lure abilities, UI feedback, and possession handoff logic.
+This repository contains the gameplay code for the weapon-controlled player pawn used in Wielderless, a multiplayer Unreal Engine action roguelite. Rather than controlling a traditional character, players inhabit a cursed weapon that moves independently before possessing NPC hosts. The sample demonstrates how gameplay, networking, physics, and presentation are organized into a maintainable Unreal C++ architecture.
 
 The system belongs to a possession-based gameplay loop where the player can move as a weapon, interact with nearby hosts, and transition into a host character. This sample focuses on the weapon-form side of that loop and demonstrates how a complex gameplay pawn can be organized into maintainable implementation domains while preserving Unreal reflection, Blueprint-facing properties, and replicated state.
+
+## See the Full Project
+
+This repository contains a focused code sample from **Wielderless**.
+
+For gameplay videos, system breakdowns, and a complete technical overview, visit my portfolio:
+
+[▶️ Portfolio: https://...](https://jplatte23.github.io/wielderless.html)
 
 ## Architecture
 
