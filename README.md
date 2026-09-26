@@ -52,7 +52,7 @@ Gameplay authority is intentionally separated from presentation. Clients capture
 
 Weapon behavior is data-driven through `UWieldWeaponDefinition`. This allows the same pawn implementation to support different weapon meshes, movement settings, camera profiles, and gameplay tuning without hard-coding those values into control flow.
 
-The split `.cpp` structure is a pragmatic Unreal refactor. It makes the code easier to evaluate in a portfolio context while avoiding the migration risk of moving reflected state into new component classes.
+The split `.cpp` structure is a pragmatic Unreal refactor. It makes the code easier to read in a portfolio context while avoiding the migration risk of moving reflected state into new component classes.
 
 ## Skills Demonstrated
 
